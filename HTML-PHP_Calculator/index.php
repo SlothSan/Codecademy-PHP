@@ -16,3 +16,4 @@
 <a href="./index.php">Reset</a>
 </body>
 </html>
+<?php
