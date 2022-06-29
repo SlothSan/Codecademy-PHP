@@ -8,4 +8,4 @@ echo "$a \n";
 
 $b = deg2rad($a);
 
-echo "$b \n"
+echo "$b \n";
