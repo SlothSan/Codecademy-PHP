@@ -34,3 +34,20 @@ echo "$f \n";
 $g = acos($f);
 
 echo "$g \n";
+
+//convert radians to degrees. 
+$h = rad2deg($g);
+
+echo "$h \n";
+
+//Round down $h (floor);
+
+$i = round($h);
+
+echo "$h \n";
+
+//Subtract 47 from I to arrive at solution.
+
+$j = $i - 47;
+
+echo "$i is the meaning of life! \n";
