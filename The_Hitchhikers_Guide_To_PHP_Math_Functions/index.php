@@ -24,3 +24,8 @@ echo "$d \n";
 $e = log($d);
 
 echo "$e \n";
+
+//Absolute of $e
+$f = abs($e);
+
+echo "$f \n";
