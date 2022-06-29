@@ -4,4 +4,8 @@ $initial = '555';
 
 $a = octdec($intial);
 
-echo $a "\n";
+echo "$a \n";
+
+$b = deg2rad($a);
+
+echo "$b \n"
