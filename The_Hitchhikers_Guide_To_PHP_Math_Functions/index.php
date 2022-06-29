@@ -29,3 +29,8 @@ echo "$e \n";
 $f = abs($e);
 
 echo "$f \n";
+
+//inverse / arc cosine of $f
+$g = acos($f);
+
+echo "$g \n";
