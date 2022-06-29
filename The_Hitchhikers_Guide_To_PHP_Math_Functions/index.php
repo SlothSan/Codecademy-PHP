@@ -42,12 +42,12 @@ echo "$h \n";
 
 //Round down $h (floor);
 
-$i = round($h);
+$i = floor($h);
 
-echo "$h \n";
+echo "$i \n";
 
 //Subtract 47 from I to arrive at solution.
 
 $j = $i - 47;
 
-echo "$i is the meaning of life! \n";
+echo "$j is the meaning of life! \n";
