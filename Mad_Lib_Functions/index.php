@@ -5,4 +5,8 @@ function generateStory($singular_noun, $verb, $color) {
     return $story;
 }
 
-echo generateStory("books", "finish", "biege");
+echo generateStory("book", "finish", "biege");
+echo "\n"
+echo generateStory("city", "see", "grey")
+echo "\n"
+echo generateStory("sea", "break", "blue")
