@@ -24,4 +24,5 @@ echo "Your lek was exchanged for $usd_from_lek USD.\n";
 
 
 $final_amount = $usd_from_riel + $usd_from_kyat + $usd_from_krones + $usd_from_lek - 4;
-echo "After deducting the transaction fee ($1 per transaction), you will be recieving $final_amount USD."
+$final_amount_rounded = round($final_amount, 2);
+echo "After deducting the transaction fee ($1 per transaction), you will be recieving $final_amount_rounded USD.";
