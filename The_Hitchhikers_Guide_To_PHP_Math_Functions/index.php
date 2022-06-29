@@ -19,3 +19,8 @@ echo "$c \n";
 $d = round($c, 3);
 
 echo "$d \n";
+
+//Natural log of $D
+$e = log($d);
+
+echo "$e \n";
