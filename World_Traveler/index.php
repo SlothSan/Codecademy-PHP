@@ -16,7 +16,7 @@ $lek_to_usd = 0.0088;
 $usd_from_riel = $riel * $riel_to_usd;
 echo "Your riel was exchanged for $usd_from_riel USD.\n";
 $usd_from_kyat = $kyat * $kyat_to_usd;
-echo "Your kyat was exchanged for $usd_from_kyat USD.\n";
+echo "Your kyat was exchanged for ${round($usd_from_kyat, 2} USD.\n";
 $usd_from_krones = $krones * $krones_to_usd;
 echo "Your krones was exchanged for $usd_from_krones USD.\n";
 $usd_from_lek = $lek * $lek_to_usd;
